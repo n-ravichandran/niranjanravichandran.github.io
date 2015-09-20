@@ -87,6 +87,7 @@ a:hover{
 .copyright{
   color:#a29f9f;
 }
+
 /* ==========================================================================
    MENU CONFIGURATION
    ========================================================================== */
@@ -671,12 +672,12 @@ html {
 	color: #313132;
 }
 
-.social-button.skype:before {
-	background-color: #00AFF0;
+.social-button.mail:before {
+	background-color: #ed263f;
 }
 
-.social-button.skype .fa {
-	color: #00AFF0;
+.social-button.mail .fa {
+	color: #f53e55;
 }
 
 .social-button:hover:before {
