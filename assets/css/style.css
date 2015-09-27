@@ -320,8 +320,13 @@ a:hover{
 	height: 60px;
 	margin: 0 auto 45px;
 	border-top: 1px solid #000;
-	background: url(../img/name-label.png) center bottom no-repeat;
+	background: url(https://cdn0.iconfinder.com/data/icons/thin-files-documents/57/thin-083_file_document_cv_curriculum_vitae_profile_id-512.png) center bottom no-repeat;
 	background-size: 35px 35px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+.name-label:hover{
+  opacity:0.5;
 }
 
 .name-zig {
@@ -371,7 +376,14 @@ a:hover{
   font-family: sans-serif;
   color: #BABfBB;
   padding-right: 10px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
 }
+
+.tools li:hover{
+  color: #6f6f6f;
+}
+
 ul.tools{
   text-align: center;
   margin-top: 12px;
@@ -382,14 +394,14 @@ ul.tools{
 .tools img:hover{
   opacity: 0.5;
 }
-/* Portfolio Wrap Section */
-#portfoliowrap {
+/* Work Wrap Section */
+#workwrap {
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
-#portfoliowrap h1 {
+#workwrap h1 {
 	font-weight: 300;
 	text-align: center;
 	margin-bottom: 50px;
@@ -402,7 +414,7 @@ ul.tools{
 	margin-bottom: 60px;
 }
 
-#portfoliowrap i {
+#workwrap i {
 	font-size: 50px;
 }
 
@@ -412,14 +424,24 @@ ul.tools{
 	border-bottom: solid 2px transparent;
 }
 
-#portfoliowrap .proc:hover {
+#workwrap .proc:hover {
 	background-color: #eee;
 	border-bottom: solid 2px #2f2f2f
 }
 
-.portfolio {
+.work {
 	background-image: url(../img/portfolio-sep.jpg);
 }
+
+#workwrap p{
+  text-align: justify;
+}
+
+.why-content{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 
 /* Contact Wrap */
 #contactwrap {

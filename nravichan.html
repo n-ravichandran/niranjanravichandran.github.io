@@ -17,8 +17,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
-    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
-
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
@@ -30,7 +28,7 @@
 			<i class="fa fa-times menu-close"></i>
 			<a href="#home" class="smoothScroll">Home</a>
 			<a href="#about" class="smoothScroll">About</a>
-			<a href="#portfolio" class="smoothScroll">What I do</a>
+			<a href="#work" class="smoothScroll">What I do</a>
 			<a href="#experience" class="smoothScroll">Experience</a>
 			<a href="#contact" class="smoothScroll">Contact</a>
 			<a href="https://www.facebook.com/Niranjanrav"><i class="fa fa-facebook"></i></a>
@@ -50,7 +48,7 @@
 			<div class="row">
 				<div class="col-md-12 ">
           <div class="banner-text">
-          <h1>Hey there! I'm</h1>
+          <h1>Hey there! I'm </h1>
           <h1><span class="typed-content"></span></h1>
         </div>
           <a href="#about" class="smoothScroll scroll-button"><img src="assets/img/Scroll-Down.png" class="bounce" alt="scroll-down"></a>
@@ -66,15 +64,17 @@
 				<div class="col-lg-4 name">
 					<img class="img-responsive" src="assets/img/Circle-Me.png">
 					<p>Niranjan Ravichandran</p>
-					<div class="name-label">
-          </div>
+					<a href="http://adavers.com/niranjan/assets/NRAVICHAN-Resume.pdf" target="blank">
+            <div class="name-label">
+            </div>
+          </a>
 				</div><! --/col-lg-4-->
 				<div class="col-lg-8 name-desc">
 					<h2>DESIGNER / <br/>DEVELOPER <br/>ENJOYING THE BEAUTY OF CHARLOTTE</h2>
 					<div class="name-zig"></div>
 						<p>I'm a Computer Science grad student at UNC Charlotte. I have a penchant for building things, primarily mobile and web applications.
               I believe that mobile devices will soon be an extension of our being and we should be creating quality apps that better our lives. </p>
-            <p>There is something about creating something on a handheld device that still feels a little magical.
+            <p>There is something about creating apps for a handheld device that still feels a little magical.
               I have worked on different things right from graphic design, enterprise applications, web apps to mobile apps. I aspire to take up challenging projects and build amazing products. Love to work as a team.</p>
               <p>
                 In the past few years I had an oppurtuinity to explore many programming languages and tools, below mentioned are some of them.
@@ -106,21 +106,37 @@
 	<! -- ABOUT SEPARATOR -->
 	<div class="sep about hidden-xs" data-stellar-background-ratio="0.5"></div>
 
-	<! -- PORTFOLIO SECTION -->
-	<section id="portfolio" name="portfolio"></section>
-	<div id="portfoliowrap">
+	<! -- WORK SECTION -->
+	<section id="work" name="work"></section>
+	<div id="workwrap">
     <div class="container">
-      <h1>These are few things that I do</h1>
+      <div class="col-md-6">
+        <div class="why-content">
+          <h2>How did I build it?</h2>
+          <p>
+            This site is built using HTML5, CSS3 and JQUERY. HTML5 provides cross browser support enabling all popular browsers to support it. CSS3 provides a rich experience for transforming and creating animations. Keyframes in CSS3 helps me create complicated animations by using specific style rule applications at various steps through a period of time. Using Bootstrap allows me to customize and factor in my own needs. Bootstrap is a consistent and responsive framework, which provides a uniform result across browsers.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="why-content">
+          <h2>Why Front-end Development?</h2>
+          <p>
+            I love to be the main actor of the software development cycle, who brings visual elements to life that users see and interact within a web application. In today's world almost every business is driven through web and mobile and it is the first mode for connecting with the end-user in this ever evovling medium of web. As a front-end developer I work on providing a minimalistic design regardless of the product that is flawless to interact with the application for the end-user.
+          </p>
+        </div>
+      </div>
 			<div class="row mt centered">
+        <h1>These are few things I'm good at</h1>
 				<div class="col-lg-4 proc">
 					<i class="fa fa-code"></i>
 					<h3>Web Development</h3>
-					<p>I have worked on a range of web applications right from small scale to enterprise level web apps.</p>
+					<p>I have worked on a range of web applications right from small scale to enterprise level web apps. I work on delivering best-in-class front-end code.</p>
 				</div>
 				<div class="col-lg-4 proc">
 					<i class="fa fa-apple"></i>
 					<h3>iOS Developement</h3>
-					<p>As an iOS developer I have worked on couple of apps out which two are currently in the app store: Auto Meter Plus and Mauritius Explored.</p>
+					<p>As an iOS developer I have worked on couple of apps out of which two are currently in the app store: Auto Meter Plus and Mauritius Explored.</p>
 				</div>
 				<div class="col-lg-4 proc">
 					<i class="fa fa-heart"></i>
@@ -129,10 +145,10 @@
 				</div>
         </div>
 			</div><! --/row -->
-	</div><! --/Portfoliowrap -->
+	</div><! --/Workwrap -->
 
-	<! -- PORTFOLIO SEPARATOR -->
-	<div class="sep portfolio hidden-xs" data-stellar-background-ratio="0.5"></div>
+	<! -- WORK SEPARATOR -->
+	<div class="sep work hidden-xs" data-stellar-background-ratio="0.5"></div>
 
 
 	<! -- SERVICE SECTION -->
@@ -225,8 +241,8 @@
           			<div class="social-buttons">
            			<a href="https://www.facebook.com/Niranjanrav" class="social-button facebook">
              			<i class="fa fa-facebook"></i></a>
-            			<a href="https://twitter.com/niranjanrav" class="social-button twitter">
-             			<i class="fa fa-twitter"></i></a>
+            			<!-- <a href="https://twitter.com/niranjanrav" class="social-button twitter">
+             			<i class="fa fa-twitter"></i></a> -->
             			<!-- <a href="https://plus.google.com/u/0/115921508724154878597/about/p/pub" class="social-button google">
               			<i class="fa fa-google-plus"></i></a> -->
               			<a href="https://www.linkedin.com/pub/niranjan-ravichandran/87/378/24" class="social-button linkedin">
@@ -267,15 +283,5 @@
 			});
 		});
 		</script>
-
-    <script type="text/javascript">
-      $(function() {
-        $('.typed-content').typed({
-          strings:["a Designer^500","a Developer.^500", "Niranjan Ravichandran.^1000"],
-          typeSpeed: 100
-        });
-      });
-    </script>
-
   </body>
 </html>
