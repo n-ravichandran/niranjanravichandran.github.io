@@ -1,4 +1,4 @@
-//Typed animation
+//Home page typed animation
 $(document).ready(function(){
   $('.typed-content').typed({
     strings:["a Designer^500","a Developer.^500", "Niranjan Ravichandran.^1000"],

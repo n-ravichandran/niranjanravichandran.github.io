@@ -320,7 +320,7 @@ a:hover{
 	height: 60px;
 	margin: 0 auto 45px;
 	border-top: 1px solid #000;
-	background: url(https://cdn0.iconfinder.com/data/icons/thin-files-documents/57/thin-083_file_document_cv_curriculum_vitae_profile_id-512.png) center bottom no-repeat;
+	background: url(../img/resume.png) center bottom no-repeat;
 	background-size: 35px 35px;
   transition-timing-function: ease-in-out;
   transition-duration: 0.5s;
