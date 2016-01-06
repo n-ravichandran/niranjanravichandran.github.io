@@ -405,6 +405,7 @@ ul.tools{
 .tools img:hover{
   opacity: 0.5;
 }
+
 /* Work Wrap Section */
 #workwrap {
 	display: block;
@@ -484,6 +485,88 @@ ul.tools{
 
 .service .text {
 	color: #767676
+}
+
+.single_image{
+	margin: 3px;
+	position: relative;
+	transition: all 1s;
+}
+.single_image img{
+	width: 100%;
+
+}
+.single_image:hover div.image_overlay{
+	opacity: 1;
+}
+
+.image_overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+background: rgba(249, 76, 68, 0.9);
+left: 0;
+top: 0;
+opacity: 0;
+	transition: all 1s;
+
+}
+.image_overlay a{
+position: absolute;
+top: 20px;
+right: 20px;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+}
+.image_overlay h2{
+position: absolute;
+bottom: 15px;
+left: 20px;
+font-size: 25px;
+color: #fff;
+/*text-transform: uppercase;*/
+letter-spacing: 3px;
+}
+
+.no_padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/*styling for horizontal scroll*/
+.wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  position: relative;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  background-color: #eee;
+}
+
+.wrapper .quad {
+  width: 360px;
+  height: 360px;
+  display: inline-block;
+  margin: 20px 20px 20px 0;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.wrapper .quad:first-child {
+  margin-left: 20px;
+}
+
+.wrapper .quad img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Testimonials Wrap */
