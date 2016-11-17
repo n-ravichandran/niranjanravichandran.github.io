@@ -270,7 +270,7 @@ a:hover{
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 100%;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -373,7 +373,7 @@ div[class="name-label"]:hover{
   text-align: center;
 }
 .tools img{
-  height: 50px;
+  height: 40px;
   width: auto;
   padding-right: 15px;
   transition-timing-function: ease-in;
@@ -859,6 +859,31 @@ html {
 	outline: none;
 }
 
+.btn-load {
+  text-align: center;
+  padding: 2px;
+  background-color: #363636 ;
+  color: #fff;
+  border: none;
+  padding: 7px 18px;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.btn-load:hover {
+  opacity: 0.9;
+  color: #fff;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+}
+
+.loadMore {
+  margin-top: 20px;
+  text-align: center;
+}
+
 /*timeline style*/
 
 section#timeline {
@@ -972,10 +997,10 @@ section#timeline article:nth-child(2) div.inner h2:after {
   background: #e74c3c;
 }
 section#timeline article:nth-child(3) div.inner h2 {
-  background: #e67e22;
+  background: #575757;
 }
 section#timeline article:nth-child(3) div.inner h2:after {
-  background: #e67e22;
+  background: #575757;
 }
 section#timeline article:nth-child(4) div.inner h2 {
   background: #1abc9c;
@@ -984,14 +1009,20 @@ section#timeline article:nth-child(4) div.inner h2:after {
   background: #1abc9c;
 }
 section#timeline article:nth-child(5) div.inner h2 {
-  background: #9b59b6;
+  background: #2487cf;
 }
 section#timeline article:nth-child(5) div.inner h2:after {
-  background: #9b59b6;
+  background: #2487cf;
 }
 section#timeline article:nth-child(6) div.inner h2 {
-  background: #2487cf;
+  background: #9b59b6;
 }
 section#timeline article:nth-child(6) div.inner h2:after {
-  background: #2487cf;
+  background: #9b59b6;
+}
+section#timeline article:nth-child(7) div.inner h2 {
+  background: #e67e22;
+}
+section#timeline article:nth-child(7) div.inner h2:after {
+  background: #e67e22;
 }
