@@ -266,7 +266,7 @@ a:hover{
 	/*background: url(../img/background.jpg) no-repeat center top;*/
   background-color: #f94c44;
 	margin-top: 0px;
-	padding-top:120px;
+	/*padding-top:120px;*/
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -282,6 +282,13 @@ a:hover{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.head-Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #headerwrap h1 {
@@ -305,7 +312,7 @@ a:hover{
 }
 
 .scroll-button img{
-  margin-top: 200px;
+  margin-top: 100px;
   height: 50px;
   width: 35px;
 }
@@ -985,44 +992,50 @@ section#timeline article:nth-child(2n+2) div.inner h2:after {
   left: -5px;
 }
 section#timeline article:nth-child(1) div.inner h2 {
-  background: #2ecc71;
+  background: #632E5E;
 }
 section#timeline article:nth-child(1) div.inner h2:after {
-  background: #2ecc71;
+  background: #632E5E;
 }
 section#timeline article:nth-child(2) div.inner h2 {
-  background: #e74c3c;
+  background: #2ecc71;
 }
 section#timeline article:nth-child(2) div.inner h2:after {
-  background: #e74c3c;
+  background: #2ecc71;
 }
 section#timeline article:nth-child(3) div.inner h2 {
-  background: #575757;
+  background: #e74c3c;
 }
 section#timeline article:nth-child(3) div.inner h2:after {
-  background: #575757;
+  background: #e74c3c;
 }
 section#timeline article:nth-child(4) div.inner h2 {
-  background: #1abc9c;
+  background: #575757;
 }
 section#timeline article:nth-child(4) div.inner h2:after {
-  background: #1abc9c;
+  background: #575757;
 }
 section#timeline article:nth-child(5) div.inner h2 {
-  background: #2487cf;
+  background: #1abc9c;
 }
 section#timeline article:nth-child(5) div.inner h2:after {
-  background: #2487cf;
+  background: #1abc9c;
 }
 section#timeline article:nth-child(6) div.inner h2 {
-  background: #9b59b6;
+  background: #2487cf;
 }
 section#timeline article:nth-child(6) div.inner h2:after {
-  background: #9b59b6;
+  background: #2487cf;
 }
 section#timeline article:nth-child(7) div.inner h2 {
-  background: #e67e22;
+  background: #9b59b6;
 }
 section#timeline article:nth-child(7) div.inner h2:after {
+  background: #9b59b6;
+}
+section#timeline article:nth-child(8) div.inner h2 {
+  background: #e67e22;
+}
+section#timeline article:nth-child(8) div.inner h2:after {
   background: #e67e22;
 }
