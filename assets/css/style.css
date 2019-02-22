@@ -992,22 +992,22 @@ section#timeline article:nth-child(2n+2) div.inner h2:after {
   left: -5px;
 }
 section#timeline article:nth-child(1) div.inner h2 {
-  background: #632E5E;
+  background: #e74c3c;
 }
 section#timeline article:nth-child(1) div.inner h2:after {
-  background: #632E5E;
+  background: #e74c3c;
 }
 section#timeline article:nth-child(2) div.inner h2 {
-  background: #2ecc71;
+  background: #489967;
 }
 section#timeline article:nth-child(2) div.inner h2:after {
-  background: #2ecc71;
+  background: #489967;
 }
 section#timeline article:nth-child(3) div.inner h2 {
-  background: #e74c3c;
+  background: #2ecc71;
 }
 section#timeline article:nth-child(3) div.inner h2:after {
-  background: #e74c3c;
+  background: #2ecc71;
 }
 section#timeline article:nth-child(4) div.inner h2 {
   background: #575757;
