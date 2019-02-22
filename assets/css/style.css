@@ -1016,26 +1016,8 @@ section#timeline article:nth-child(4) div.inner h2:after {
   background: #575757;
 }
 section#timeline article:nth-child(5) div.inner h2 {
-  background: #1abc9c;
+  background: #4164B9;
 }
 section#timeline article:nth-child(5) div.inner h2:after {
-  background: #1abc9c;
-}
-section#timeline article:nth-child(6) div.inner h2 {
-  background: #2487cf;
-}
-section#timeline article:nth-child(6) div.inner h2:after {
-  background: #2487cf;
-}
-section#timeline article:nth-child(7) div.inner h2 {
-  background: #9b59b6;
-}
-section#timeline article:nth-child(7) div.inner h2:after {
-  background: #9b59b6;
-}
-section#timeline article:nth-child(8) div.inner h2 {
-  background: #e67e22;
-}
-section#timeline article:nth-child(8) div.inner h2:after {
-  background: #e67e22;
+  background: #4164B9;
 }
