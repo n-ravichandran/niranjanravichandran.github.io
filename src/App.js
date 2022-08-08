@@ -4,7 +4,9 @@ import Profile from './Profile.jsx';
 
 function App() {
   return (
-    <Profile></Profile>
+    <div clasName='place-self-center'>
+      <Profile></Profile>
+    </div>
   );
 }
 

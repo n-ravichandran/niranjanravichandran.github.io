@@ -1,6 +1,5 @@
 import React from 'react';
 import photo from './assets/nj.png';
-import './App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
@@ -9,8 +8,9 @@ class Profile extends React.Component {
 
     render() {
         return(
-            <div name='profile' className='w-full h-screen bg-gray-50'>
-                <div className="grid container mx-auto px-4 py-8 md:py-32 md:grid-cols-3 md:gap-6">
+            <div className='w-full h-screen flex justify-center items-center bg-gradient-to-r from-yellow-100 via-pink-200 via-purple-500 via via-lime-100 via-cyan-400 via-yellow-200 via-purple-400 to-emerald-200'>
+                <div name='profile' className='max-w-fit bg-gray-50 rounded-3xl'>
+                <div className="grid container mx-auto px-4 py-8 md:grid-cols-3 md:gap-6">
                     <div className='md-col-span-1 text-center place-self-center'>
                         <img src={photo} className='max-w-xs' alt='Niranjan' />
                         <div className='h-[35px]'></div>
@@ -29,6 +29,7 @@ class Profile extends React.Component {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         );
     }
