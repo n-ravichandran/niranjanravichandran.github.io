@@ -8,7 +8,7 @@ class Profile extends React.Component {
 
     render() {
         return(
-            <div className='w-full h-screen flex justify-center items-center bg-gradient-to-r from-yellow-100 via-pink-200 via-purple-500 via via-lime-100 via-cyan-400 via-yellow-200 via-purple-400 to-emerald-200'>
+            <div className='w-full h-screen flex justify-center items-center bg-gradient-to-r from-indigo-200 via-pink-200 to-lime-100'>
                 <div name='profile' className='max-w-fit bg-gray-50 rounded-3xl'>
                 <div className="grid container mx-auto px-4 py-8 md:grid-cols-3 md:gap-6">
                     <div className='md-col-span-1 text-center place-self-center'>
