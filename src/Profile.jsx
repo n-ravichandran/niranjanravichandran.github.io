@@ -12,7 +12,7 @@ class Profile extends React.Component {
                 <div name='profile' className='max-w-fit bg-gray-50 rounded-3xl'>
                     <div className="grid container mx-auto px-4 py-8 md:grid-cols-3 md:gap-6">
                         <div className='md-col-span-1 text-center place-self-center'>
-                            <img src={photo} className='w-60' alt='Niranjan' />
+                            <img src={photo} className='min-w-0 md:w-60 max-w-xs' alt='Niranjan'/>
                             <div className='h-[35px]'></div>
                             <p className='font-sans text-3xl text-gray-700'>👋🏽 Hi, I’m</p>
                             <div className='h-[15px]'></div>
