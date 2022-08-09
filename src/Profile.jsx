@@ -8,11 +8,11 @@ class Profile extends React.Component {
 
     render() {
         return(
-            <div className='w-full h-screen flex justify-center items-center bg-gradient-to-r from-indigo-200 via-pink-200 to-lime-100'>
-                <div name='profile' className='max-w-fit bg-gray-50 rounded-3xl'>
+            <div className='w-full md:h-screen overflow-auto flex justify-center items-center bg-gradient-to-r from-indigo-200 via-pink-200 to-lime-100'>
+                <div name='profile' className='m-10 lg:m-0 max-w-fit bg-gray-50 rounded-3xl'>
                     <div className="grid container mx-auto px-4 py-8 md:grid-cols-3 md:gap-6">
-                        <div className='md-col-span-1 text-center place-self-center'>
-                            <img src={photo} className='min-w-0 md:w-60 max-w-xs' alt='Niranjan'/>
+                        <div className='md:col-span-1 text-center place-self-center'>
+                            <img src={photo} className='max-w-xs mx-auto' alt='Niranjan'/>
                             <div className='h-[35px]'></div>
                             <p className='font-sans text-3xl text-gray-700'>👋🏽 Hi, I’m</p>
                             <div className='h-[15px]'></div>
