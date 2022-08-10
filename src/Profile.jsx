@@ -19,13 +19,13 @@ class Profile extends React.Component {
                             <p className='font-sans text-3xl text-gray-700'>Niranjan Ravichandran</p>
                             <div className='h-[15px]'></div>
                         </div>
-                        <div className='md:mt-0 px-10 md:col-span-2 place-self-center'>
+                        <div className='md:mt-0 px-5 md:col-span-2 place-self-center'>
                             <p className='font-sans font-bold text-2xl text-gray-700'>A little about me...</p>
-                            <p className='font-sans text-gray-600 py-2'>I spend most of my time building and breaking (mostly breaking) software. I love any tool that makes building software more fun. I’ve been lucky to work on incredible projects with inspiring people. I’m proud to have worked on products that are used by people million times everyday. Currently breaking things at Latch, Inc. as a Sr. iOS Engineer.</p>
+                            <p className='font-sans text-gray-600 py-2'>I'm a Software Engineer based out of 🗽 New York. I spend most of my time building and breaking (mostly breaking) software. I love any tool that makes building software more fun. I’ve been lucky to have worked on products that are used by people more than a million times everyday. I'm currently breaking things at <a href='https://www.latch.com/' className='font-medium hover:opacity-75'>Latch Inc</a> as a Sr. iOS Engineer.</p>
                             <div className='flex flex row py-2 md:text-center'>
-                                <a href='https://twitter.com/_nravichan'><FontAwesomeIcon icon={brands('twitter')} className='fa-2xl px-2'/></a>
-                                <a href='https://www.linkedin.com/in/nravichan/'><FontAwesomeIcon icon={brands('linkedin')} className='fa-2xl px-2'/></a>
-                                <a href='https://github.com/n-ravichandran'><FontAwesomeIcon icon={brands('github')} className='fa-2xl px-2'/></a>
+                                <a href='https://twitter.com/_nravichan' className='hover:opacity-75'><FontAwesomeIcon icon={brands('twitter')} className='fa-2xl px-2'/></a>
+                                <a href='https://www.linkedin.com/in/nravichan/' className='hover:opacity-75'><FontAwesomeIcon icon={brands('linkedin')} className='fa-2xl px-2'/></a>
+                                <a href='https://github.com/n-ravichandran' className='hover:opacity-75'><FontAwesomeIcon icon={brands('github')} className='fa-2xl px-2'/></a>
                             </div>
                         </div>
                     </div>
