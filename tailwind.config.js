@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       gridTemplateRows: {
         '[auto,auto,1fr]': 'auto auto 1fr',
+      },
+      colors: {
+        // 'purple': '#291845',
       }
     },
   },
