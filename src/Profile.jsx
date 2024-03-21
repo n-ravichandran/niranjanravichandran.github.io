@@ -24,7 +24,7 @@ class Profile extends React.Component {
                             <p className='font-sans text-justify text-gray-600 py-2 dark:text-gray-50'>I'm a Software Engineer based out of New York🗽. I spend most of my time building and breaking (mostly breaking) software. I’ve been lucky to have worked on products used by millions of people every day. I'm currently building the interaction experience at <a href='https://www.hinge.co/' className='font-medium hover:opacity-75'>Hinge</a> on iOS.</p>
                             <p className='font-sans text-justify text-gray-600 py-2 dark:text-gray-50'>Before joining Hinge, I spent more than three years building native mobile apps at <a href='https://www.latch.com/' className='font-medium hover:opacity-75'>Latch</a>.</p>
                             <div className='flex flex row py-2 md:text-center'>
-                                <a href='https://twitter.com/_nravichan' className='hover:opacity-75 dark:text-slate-50'><FontAwesomeIcon icon={brands('twitter')} className='fa-2xl px-2'/></a>
+                                <a href='https://twitter.com/_nravichan' className='hover:opacity-75 dark:text-slate-50'><FontAwesomeIcon icon={brands('x-twitter')} className='fa-2xl px-2'/></a>
                                 <a href='https://www.linkedin.com/in/nravichan/' className='hover:opacity-75 dark:text-slate-50'><FontAwesomeIcon icon={brands('linkedin')} className='fa-2xl px-2'/></a>
                                 <a href='https://github.com/n-ravichandran' className='hover:opacity-75 dark:text-slate-50'><FontAwesomeIcon icon={brands('github')} className='fa-2xl px-2'/></a>
                             </div>
